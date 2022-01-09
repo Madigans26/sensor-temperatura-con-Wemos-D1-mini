@@ -4,6 +4,7 @@ Utiliza 6 sensores de temperatura 18B20 para tomar la temperatura de IDA y de RE
 de radiadores que tiene la casa.
 
 Utiliza una LDR (resistencia variable con la luz) para saber cuando se enciende la caldera y consume gas.
+
 Las metricas de los sensores de temperatura y de luz (LDR) se envian mediante el protocolo MQTT a un servidor.
 Esas metricas son recogidas por NODE-RED y guardadas en una base de datos de POSTGRESQL.
 
